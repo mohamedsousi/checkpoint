@@ -1,0 +1,78 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+
+}
+nav img {
+    width:300px;
+    object-fit: contain;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    
+
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+
+.titre {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.titre img {
+    width: 50px;
+    object-fit: contain;  
+}
+
+
+.titre h1 {
+    color: #00b39b;
+    font-size: 3.29rem;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+
+}
+
+.paragraph {
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph p {
+    color: #747474;
+    font-size: 16px;
+    width:500px;
+}
+
+.card-container {
+    margin-top: 100px;
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #00b39b;
+    padding: 20px;
+    width:300px;
+    border-radius: 20px;
+}
